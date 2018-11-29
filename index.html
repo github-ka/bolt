@@ -13,78 +13,101 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <meta name="description" content="This is my portfolio site.">
     <meta name="keyword" content="bolt, bootstrap, portfolio">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   </head>
 
   <body>
     <header class="header">
-      <div class="header-inner text-size clearfix">
-        <div class="header-inner__left">
+      <div class="header__main inner clearfix">
+        <div class="header__main__left">
           <i class="fas fa-bolt fa-3x "></i>
         </div>
-        <div class="header-inner__right">
-          <button class="header-inner__right__button">Contact</button>
+        <div class="header__main__right">
+          <a class="header__main__right__button">Contact</a>
         </div>
       </div>
     </header>
     <main class="body">
-      <div class="body-inner text-size">
-          <h1 class="body-inner__text-h1">Bolt  Theme</h1>
-          <h2 class="body-inner__text-h2">FREE BOOTSTRAP THEMES</h2>
+      <div class="body-title inner">
+        <h1 class="body-title__text-h1">Bolt  Theme</h1>
+        <p class="body-title__text-p">FREE BOOTSTRAP THEMES</p>
       </div>
       <div class="body-phon">
-        <div class="body-phon__box text-size clearfix">
-          <img class="body-phon__left" src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/iphone.png" alt="携帯">
-          <section class="body-phon__right">
-            <h3>WHAT WE CAN DO?</h3>
+        <section class="body-phon__box inner clearfix">
+          <div class="body-phon__right">
+            <h1>WHAT WE CAN DO?</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          </section>
-        </div>
+          </div>
+          <img class="body-phon__left" src="img/iphone.png" alt="携帯">
+        </section>
       </div>
       <div class="body-our-work">
-        <div class="text-size">
-          <h3 class="body-our-work__text">OUR LATEST WORK</h3>
-          <figure class="body-our-work__box">
-            <img class="body-our-work__img" src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/01.jpg" alt="">
-            <img class="body-our-work__img" src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/02.jpg" alt="">
-            <img class="body-our-work__img" src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/03.jpg" alt="">
-            <img class="body-our-work__img" src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/04.jpg" alt="">
-            <img class="body-our-work__img" src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/05.jpg" alt="">
-            <img class="body-our-work__img" src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/06.jpg" alt="">
-          </figure>
+        <div class="inner">
+          <p class="body-our-work__text">OUR LATEST WORK</p>
+          <div class="body-our-work__box">
+            <figure class="body-our-work__box_img">
+               <a href="">
+                 <img class="body-our-work__img" src="img/01.jpg" alt="">
+               </a>
+            </figure>
+            <figure class="body-our-work__box_img">
+                <a href="">
+                  <img class="body-our-work__img" src="img/02.jpg" alt="">
+                </a>
+            </figure>
+            <figure class="body-our-work__box_img">
+                <a href="">
+                  <img class="body-our-work__img" src="img/03.jpg" alt="">
+                </a>
+            </figure>
+            <figure class="body-our-work__box_img">
+                <a href="">
+                  <img class="body-our-work__img" src="img/04.jpg" alt="">
+                </a>
+            </figure>
+            <figure class="body-our-work__box_img">
+                <a href="">
+                  <img class="body-our-work__img" src="img/05.jpg" alt="">
+                </a>
+            </figure>
+            <figure class="body-our-work__box_img">
+                <a href="">
+                  <img class="body-our-work__img" src="img/06.jpg" alt="">
+                </a>
+            </figure>
+          </div>
           <div class="body-our-work__bottom">
             <p class="body-our-work__bottom__left" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-            <button class="body-our-work__bottom__right">Email Me!</button>
+            <a class="body-our-work__bottom__right">Email Me!</a>
           </div>
         </div>
       </div>
       <div class="body-our-skill">
-        <div class="body-our-skill__inner text-size">
-          <h3 >OUR SKILLS</h3>
+        <div class="body-our-skill__main inner">
+          <p >OUR SKILLS</p>
           <div class="box-radio">
-            <div class="body-our-skill-box">
-              <img src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/circle_01.png" alt="">
-            <p>JavaScript</p>
-            </div>
-            <div class="body-our-skill-box">
-              <img src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/circle_02.png" alt="">
-            <p>Bootstrap</p>
-            </div>
-            <div class="body-our-skill-box">
-              <img src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/circle_03.png" alt="">
-            <p>WordPlass</p>
-            </div>
-            <div class="body-our-skill-box">
-              <img src="file:///Users/kaneshirokento/Desktop/GIZUMO/Bolt/img/circle_04.png" alt="">
-              <p>Photoshop</p>
-            </div>
+            <figure class="body-our-skill-box">
+              <img src="img/circle_01.png" alt="">
+              <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure class="body-our-skill-box">
+              <img src="img/circle_02.png" alt="">
+              <figcaption>Bootstrap</figcaption>
+            </figure>
+            <figure class="body-our-skill-box">
+              <img src="img/circle_03.png" alt="">
+              <figcaption>WordPlass</figcaption>
+            </figure>
+            <figure class="body-our-skill-box">
+              <img src="img/circle_04.png" alt="">
+              <figcaption>Photoshop</figcaption>
+            </figure>
           </div>
         </div>
       </div>
       <nav class="body-bottom">
-        <div class="body-bottom__inner  text-size">
+        <div class="body-bottom__main  inner">
           <a class="body-bottom-table" href="">
-            <i class="fab fa-facebook-f fa-3x"></i>
+            <i class="fab fa-facebook fa-3x"></i>
           </a>
            <a class="body-bottom-table" href="">
             <i class="fab fa-dribbble fa-3x"></i>
@@ -98,8 +121,8 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="footer__inner text-size">
-        <p class="fotter__inner-right">Crafted with <i class="fas fa-heart"> </i> by BlackTie.co.</p>
+      <div class="footer__main inner">
+        <p class="fotter__main-right">Crafted with <i class="fas fa-heart"> </i> by BlackTie.co.</p>
       </div>
     </footer>
     <script src="js/script.js"></script>
