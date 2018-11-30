@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Raleway;
+}
+
 .clearfix:after {
   display: block;
   content: "";
@@ -9,16 +17,6 @@
 .inner {
   margin: 0 auto;
   max-width: 1100px;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.fas,
-.fab {
-  font-family: fontawesome;
 }
 
 .header {
@@ -35,7 +33,6 @@ a {
 
 .header__main__right {
   float: right;
-  padding: 15px;
 }
 
 .header__main__left {
@@ -43,6 +40,7 @@ a {
 }
 
 .header__main__right__button {
+  display: inline-block;
   font-size: 12px;
   font-weight: bold;
   color: #fff;
@@ -53,9 +51,10 @@ a {
 
 .body {
   background: #f2f2f2;
+  padding-top: 77px;
 }
 
-.body-title {
+.body-main {
   padding: 250px 0;
 }
 
@@ -92,7 +91,6 @@ a {
 
 
 .body-phon__right h1 {
-  font-family: Raleway;
   font-size: 24px;
   margin-bottom: 35px;
 }
@@ -107,7 +105,6 @@ a {
 }
 
 .body-our-work__text {
-  font-family: Raleway;
   font-size: 24px;
   color: #333;
   text-align: center;
@@ -120,30 +117,29 @@ a {
 
 .body-our-work__box_img {
   display: inline-block;
+  margin: 80px 0 0 100px;
+}
+
+.box_img__img {
   opacity: 0.7;
-  margin-left: 100px;
   transition: 0.3s;
 }
 
-.body-our-work__box_img:hover {
+.box_img__img:hover {
   opacity: 1;
 }
 
-.body-our-work__box_img:first-child,
- .body-our-work__box_img:nth-child(4) {
+.body-our-work__box_img:nth-child(3n+1) {
   margin-left: 0;
 }
 
 .body-our-work__box_img:nth-child(-n+3) {
-  margin-bottom: 80px;
-}
-
-.body-our-work__box_img:nth-child(n+4) {
-  margin-bottom: 90px;
+  margin-top: 0;
 }
 
 .body-our-work__bottom {
   text-align: center;
+  margin-top: 90px;
 }
 
 .body-our-work__bottom__left {
@@ -173,17 +169,17 @@ a {
 
 .body-our-skill {
   background: #4e4e4e;
+  padding: 70px 0 100px 0;
 }
 
 .body-our-skill__main {
   box-sizing: border-box;
-  padding: 70px 0 100px 0;
   text-align: center;
   color: #fff;
 }
 
-.body-our-skill__main p {
-  font-family: Raleway;
+.body-our-skill__main h1 {
+  font-size: 24px;
   margin-bottom: 30px;
 }
 
@@ -199,7 +195,7 @@ a {
 }
 
 .body-our-skill-box figcaption {
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 16px;
 }
 
@@ -239,7 +235,7 @@ a {
 }
 
 .fotter__main-right {
+  text-align: right;
   font-weight: bold;
   color: #fff;
-  padding-left: 70%;
 }
